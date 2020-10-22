@@ -21,6 +21,7 @@ public:
 	virtual ~Player();
 
 	const sf::Vector2f& getPos() const;
+	const sf::FloatRect getBounds() const;
 
 	void move(const float dirX, const float dirY);
 	const bool canAttack();
